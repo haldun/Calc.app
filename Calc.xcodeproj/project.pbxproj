@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CalcAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		272325FE1228813C006F708B /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 272325FD1228813C006F708B /* libicucore.dylib */; };
+		2723261812288191006F708B /* HBParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2723261312288191006F708B /* HBParser.m */; };
+		2723261912288191006F708B /* HBMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2723261512288191006F708B /* HBMainTableViewController.m */; };
+		2723261A12288191006F708B /* HBCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2723261712288191006F708B /* HBCellView.m */; };
+		2723261C12288197006F708B /* HBCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2723261B12288197006F708B /* HBCellView.xib */; };
+		27232637122883A9006F708B /* HBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27232636122883A9006F708B /* HBRootViewController.m */; };
+		27232647122885A4006F708B /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 27232645122885A4006F708B /* Document.m */; };
+		2723279F12289BDF006F708B /* HBDocumentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2723279E12289BDF006F708B /* HBDocumentDetailViewController.m */; };
+		272327C112289D45006F708B /* Row.m in Sources */ = {isa = PBXBuildFile; fileRef = 272327C012289D45006F708B /* Row.m */; };
+		272327EE12289E47006F708B /* HBDocumentDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 272327ED12289E47006F708B /* HBDocumentDetailViewController.xib */; };
+		2782368512F80EF900D51A13 /* libparsekit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2782367C12F80EE500D51A13 /* libparsekit.a */; };
+		28193060112F816700ECF9B4 /* Calc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* Calc.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2782367712F80EE500D51A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* ParseKit.framework */;
+			remoteInfo = ParseKit;
+		};
+		2782367912F80EE500D51A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D389F1CE0F1965E600558235 /* JSParseKit.framework */;
+			remoteInfo = JSParseKit;
+		};
+		2782367B12F80EE500D51A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D3FDC5830FFC4BFC00F1F797 /* libparsekit.a */;
+			remoteInfo = ParseKitMobile;
+		};
+		2782367D12F80EE500D51A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D3C7D87A0A411FBF005DD154 /* Tests.octest */;
+			remoteInfo = Tests;
+		};
+		2782367F12F80EE500D51A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D33494100E2963FD00406085 /* DemoApp.app */;
+			remoteInfo = DemoApp;
+		};
+		2782368112F80EE500D51A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D34185040E520D3F0081B0DC /* DebugApp.app */;
+			remoteInfo = DebugApp;
+		};
+		2782368312F80EE500D51A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D389F2030F196A7500558235 /* JSDemoApp.app */;
+			remoteInfo = JSDemoApp;
+		};
+		2782368712F80F0600D51A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FDC5820FFC4BFC00F1F797 /* ParseKitMobile */;
+			remoteInfo = ParseKitMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CalcAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CalcAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		272325FD1228813C006F708B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		2723261212288191006F708B /* HBParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBParser.h; sourceTree = "<group>"; };
+		2723261312288191006F708B /* HBParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBParser.m; sourceTree = "<group>"; };
+		2723261412288191006F708B /* HBMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBMainTableViewController.h; sourceTree = "<group>"; };
+		2723261512288191006F708B /* HBMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBMainTableViewController.m; sourceTree = "<group>"; };
+		2723261612288191006F708B /* HBCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBCellView.h; sourceTree = "<group>"; };
+		2723261712288191006F708B /* HBCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBCellView.m; sourceTree = "<group>"; };
+		2723261B12288197006F708B /* HBCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBCellView.xib; sourceTree = "<group>"; };
+		27232635122883A9006F708B /* HBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBRootViewController.h; sourceTree = "<group>"; };
+		27232636122883A9006F708B /* HBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBRootViewController.m; sourceTree = "<group>"; };
+		27232644122885A4006F708B /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		27232645122885A4006F708B /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		2723279D12289BDF006F708B /* HBDocumentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBDocumentDetailViewController.h; sourceTree = "<group>"; };
+		2723279E12289BDF006F708B /* HBDocumentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBDocumentDetailViewController.m; sourceTree = "<group>"; };
+		272327BF12289D45006F708B /* Row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Row.h; sourceTree = "<group>"; };
+		272327C012289D45006F708B /* Row.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Row.m; sourceTree = "<group>"; };
+		272327ED12289E47006F708B /* HBDocumentDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBDocumentDetailViewController.xib; sourceTree = "<group>"; };
+		2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ParseKit.xcodeproj; path = "../../../Desktop/Depo/release-1.5-tag/ParseKit.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* Calc.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Calc.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Calc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calc_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Calc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Calc-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2782368512F80EF900D51A13 /* libparsekit.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				272325FE1228813C006F708B /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* CalcAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CalcAppDelegate.m */,
+				2723261212288191006F708B /* HBParser.h */,
+				2723261312288191006F708B /* HBParser.m */,
+				2723261412288191006F708B /* HBMainTableViewController.h */,
+				2723261512288191006F708B /* HBMainTableViewController.m */,
+				2723261612288191006F708B /* HBCellView.h */,
+				2723261712288191006F708B /* HBCellView.m */,
+				27232635122883A9006F708B /* HBRootViewController.h */,
+				27232636122883A9006F708B /* HBRootViewController.m */,
+				2723279D12289BDF006F708B /* HBDocumentDetailViewController.h */,
+				2723279E12289BDF006F708B /* HBDocumentDetailViewController.m */,
+				272327ED12289E47006F708B /* HBDocumentDetailViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Calc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2782366B12F80EE500D51A13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2782367812F80EE500D51A13 /* ParseKit.framework */,
+				2782367A12F80EE500D51A13 /* JSParseKit.framework */,
+				2782367C12F80EE500D51A13 /* libparsekit.a */,
+				2782367E12F80EE500D51A13 /* Tests.octest */,
+				2782368012F80EE500D51A13 /* DemoApp.app */,
+				2782368212F80EE500D51A13 /* DebugApp.app */,
+				2782368412F80EE500D51A13 /* JSDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				272325FD1228813C006F708B /* libicucore.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Calc_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2819305F112F816700ECF9B4 /* Calc.xcdatamodeld */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Calc-Info.plist */,
+				2723261B12288197006F708B /* HBCellView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Calc" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2782368812F80F0600D51A13 /* PBXTargetDependency */,
+			);
+			name = Calc;
+			productName = Calc;
+			productReference = 1D6058910D05DD3D006BFB54 /* Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2782366B12F80EE500D51A13 /* Products */;
+					ProjectRef = 2782366A12F80EE500D51A13 /* ParseKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Calc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2782367812F80EE500D51A13 /* ParseKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ParseKit.framework;
+			remoteRef = 2782367712F80EE500D51A13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2782367A12F80EE500D51A13 /* JSParseKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSParseKit.framework;
+			remoteRef = 2782367912F80EE500D51A13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2782367C12F80EE500D51A13 /* libparsekit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libparsekit.a;
+			remoteRef = 2782367B12F80EE500D51A13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2782367E12F80EE500D51A13 /* Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.octest;
+			remoteRef = 2782367D12F80EE500D51A13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2782368012F80EE500D51A13 /* DemoApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DemoApp.app;
+			remoteRef = 2782367F12F80EE500D51A13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2782368212F80EE500D51A13 /* DebugApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DebugApp.app;
+			remoteRef = 2782368112F80EE500D51A13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2782368412F80EE500D51A13 /* JSDemoApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = JSDemoApp.app;
+			remoteRef = 2782368312F80EE500D51A13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2723261C12288197006F708B /* HBCellView.xib in Resources */,
+				272327EE12289E47006F708B /* HBDocumentDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CalcAppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* Calc.xcdatamodeld in Sources */,
+				2723261812288191006F708B /* HBParser.m in Sources */,
+				2723261912288191006F708B /* HBMainTableViewController.m in Sources */,
+				2723261A12288191006F708B /* HBCellView.m in Sources */,
+				27232637122883A9006F708B /* HBRootViewController.m in Sources */,
+				27232647122885A4006F708B /* Document.m in Sources */,
+				2723279F12289BDF006F708B /* HBDocumentDetailViewController.m in Sources */,
+				272327C112289D45006F708B /* Row.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2782368812F80F0600D51A13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParseKitMobile;
+			targetProxy = 2782368712F80F0600D51A13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/release-1.5-tag/build/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Calc_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Users/hb/Desktop/Depo/release-1.5-tag/include";
+				INFOPLIST_FILE = "Calc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = Calc;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/release-1.5-tag/build/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Calc_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Users/hb/Developer/Calc/release-1.5-tag/include";
+				INFOPLIST_FILE = "Calc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load\n",
+				);
+				PRODUCT_NAME = Calc;
+				SDKROOT = iphoneos4.0;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv6";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* Calc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27232644122885A4006F708B /* Document.h */,
+				27232645122885A4006F708B /* Document.m */,
+				28C3AD890F43EF2300507BA6 /* Calc.xcdatamodel */,
+				272327BF12289D45006F708B /* Row.h */,
+				272327C012289D45006F708B /* Row.m */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* Calc.xcdatamodel */;
+			path = Calc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
